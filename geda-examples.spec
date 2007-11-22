@@ -12,10 +12,10 @@ Requires:	libgeda >= %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Examples for gEDA project
+Examples for gEDA project.
 
 %description -l pl.UTF-8
-Przykłady dla projektu gEDA
+Przykłady dla projektu gEDA.
 
 %prep
 %setup -q
