@@ -1,12 +1,12 @@
 Summary:	Examples for gEDA project
 Summary(pl.UTF-8):	Przykłady dla projektu gEDA
 Name:		geda-examples
-Version:	1.4.0
+Version:	1.4.2
 Release:	1
 License:	GPL
 Group:		Applications
 Source0:	ftp://ftp.geda.seul.org/pub/geda/release/v1.4/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	ba3984ccdc75a47a0ed88bf0916733e7
+# Source0-md5:	09c7adfcf9cb27955aa273a780538935
 URL:		http://www.geda.seul.org/
 Requires:	libgeda >= %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
