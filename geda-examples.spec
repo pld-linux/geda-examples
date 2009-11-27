@@ -8,6 +8,7 @@ Group:		Applications
 Source0:	ftp://ftp.geda.seul.org/pub/geda/release/v1.4/%{version}/%{name}-%{version}.tar.gz
 # Source0-md5:	09c7adfcf9cb27955aa273a780538935
 URL:		http://www.geda.seul.org/
+BuildRequires:	rpm-pythonprov
 Requires:	libgeda >= %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
